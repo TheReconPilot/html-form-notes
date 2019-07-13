@@ -4,13 +4,14 @@ Notes for HTML Form Tags. Thanks to Codecademy.
 
 The purpose of a `<form>` is to allow users to input information and send it.
 
-The `<form>`‘s action attribute determines where the form’s information goes.
+The `<form>`‘s **action** attribute determines where the form’s information goes.
 
-The `<form>`‘s method attribute determines how the information is sent and processed.
+The `<form>`‘s **method** attribute determines how the information is sent and processed.
+
+___
 
 To add fields for users to input information we use the `<input>` element and set the type attribute to a field of our choosing:
 
-___
 
 - Setting type to "**text**" creates a single row field for text input.
 - Setting type to "**password**" creates a single row field that censors text input.
