@@ -1,0 +1,41 @@
+body {
+    width: 600px;
+    margin: auto;
+    font-family: 'Titillium Web', sans-serif;
+    color: #790009;
+    font-size: 17px;
+    background-image: url(./Background.jpg);
+}
+
+code {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid lightseagreen;
+    padding: 4px;
+}
+
+tr {
+    background-color: aquamarine;
+}
+tr:nth-child(even) {
+    background-color: aqua
+}
+
+th {
+    background-color: darkgreen;
+    color: azure;
+}
+
+.header {
+    background-image: url(./HeaderBackground.jpg);
+    display: block;
+    color: azure;
+}
+
