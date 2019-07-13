@@ -4,11 +4,20 @@ body {
     font-family: 'Titillium Web', sans-serif;
     color: #790009;
     font-size: 17px;
-    background-image: url(./Background.jpg);
+    background-image: url("Background.png");
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+h3 {
+    color: midnightblue;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 code {
     font-family: 'Share Tech Mono', monospace;
+    color: #385200;
 }
 
 table {
@@ -24,8 +33,9 @@ table, th, td {
 tr {
     background-color: aquamarine;
 }
+
 tr:nth-child(even) {
-    background-color: aqua
+    background-color: #35d49f;
 }
 
 th {
@@ -39,3 +49,7 @@ th {
     color: azure;
 }
 
+.header, .intro, .input, .other {
+    background-color: ivory;
+    padding: 5px;
+}
